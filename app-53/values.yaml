@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      udpdrMv4AP7LF
+      203Xdwht77y27
   count: 2
 hook:
   enabled: false

@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      Xn2u1wtOK5Cc8
+      InvYGASawvnJs
   count: 2
 hook:
   enabled: false

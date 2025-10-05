@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      ZtNs1f51BoNTE
+      xkvGe77DreaSO
   count: 2
 hook:
   enabled: false

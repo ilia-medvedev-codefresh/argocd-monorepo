@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      WFkAdslALubaL
+      17cZ9Ecy44byy
   count: 2
 hook:
   enabled: false

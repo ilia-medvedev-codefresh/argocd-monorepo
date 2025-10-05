@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      IeOlv60KOzzfx
+      fzB8R93ppDnrc
   count: 2
 hook:
   enabled: false

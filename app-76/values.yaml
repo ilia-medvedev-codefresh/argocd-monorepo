@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      Fb59MeFxyTHl0
+      ORA79MdY4jMoG
   count: 2
 hook:
   enabled: false

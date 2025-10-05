@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      K2gtMOTtamYAf
+      dSdbqVir04hgu
   count: 2
 hook:
   enabled: false

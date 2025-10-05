@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      FWICilxWFir6k
+      jlauFilefuArG
   count: 2
 hook:
   enabled: false

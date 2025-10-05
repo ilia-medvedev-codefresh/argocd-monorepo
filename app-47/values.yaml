@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      fPkGC1JJJE47u
+      wz6xQgLTNnPS4
   count: 2
 hook:
   enabled: false

@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      Tc3ms3yCKdPIM
+      wlcEATovmpEPV
   count: 2
 hook:
   enabled: false

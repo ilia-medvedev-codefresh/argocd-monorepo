@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      aL22Kdsl0AX1q
+      Ex0MofCoHaSYs
   count: 2
 hook:
   enabled: false

@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      MYLP2BugoMc6b
+      Cg9GL0pcbsNGo
   count: 2
 hook:
   enabled: false

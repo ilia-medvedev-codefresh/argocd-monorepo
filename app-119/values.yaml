@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      IhgaQHT744GCP
+      vPSAgpNuQfuUD
   count: 2
 hook:
   enabled: false

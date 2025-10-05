@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      BZbSg40cgGm7w
+      JCEFi4NgJohOn
   count: 2
 hook:
   enabled: false

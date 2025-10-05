@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      Rc8y5l66YvV7J
+      kiCLNSKBeTazh
   count: 2
 hook:
   enabled: false

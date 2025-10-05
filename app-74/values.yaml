@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      asSL5IMcj8de4
+      kBnofortFncQn
   count: 2
 hook:
   enabled: false

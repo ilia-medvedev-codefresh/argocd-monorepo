@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      eaFpSrtit307D
+      54Ay0db4gsUm3
   count: 2
 hook:
   enabled: false

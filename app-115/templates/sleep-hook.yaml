@@ -1,3 +1,4 @@
+{{- if .Values.hook.enabled }}
 apiVersion: batch/v1
 kind: Job
 metadata:
@@ -16,6 +17,7 @@ spec:
             - sh
             - -c
             - |
-              max={{ .Values.sleepSecondsMax | default 30 }}
+              max={{ .Values.hook.sleepSecondsMax | default 30 }}
               min=3
               sleep $((RANDOM % (max - min + 1) + min))
+{{- end }}

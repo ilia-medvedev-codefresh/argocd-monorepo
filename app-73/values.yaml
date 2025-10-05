@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      JpNPerpglIp44
+      iNVxhKsdufmnp
   count: 2
 hook:
   enabled: false

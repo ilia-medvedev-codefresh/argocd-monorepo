@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      fNPSdROOOVpWS
+      NdYUd178T0AGP
   count: 2
 hook:
   enabled: false

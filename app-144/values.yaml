@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      MtARKZELMNMbx
+      VpkEbuXING0am
   count: 2
 hook:
   enabled: false

@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      G22JI2qby47wD
+      mw36SYviiJetd
   count: 2
 hook:
   enabled: false

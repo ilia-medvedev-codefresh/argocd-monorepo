@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      UAEVomi02RVp8
+      MQ24I16xUSLXD
   count: 2
 hook:
   enabled: false

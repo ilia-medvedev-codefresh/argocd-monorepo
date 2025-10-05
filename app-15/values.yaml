@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      bpMTvDUjBinIb
+      Enope8bSbTitn
   count: 2
 hook:
   enabled: false

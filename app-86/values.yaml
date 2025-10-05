@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      690kPtTi21TdK
+      4lSCfrvrrGraf
   count: 2
 hook:
   enabled: false

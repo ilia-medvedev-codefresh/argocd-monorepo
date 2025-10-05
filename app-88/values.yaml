@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      QCuo264ZpCTNv
+      2pfAMBA033Ght
   count: 2
 hook:
   enabled: false

@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      APIdoWJWaEtio
+      jpkHTBI9542AX
   count: 2
 hook:
   enabled: false

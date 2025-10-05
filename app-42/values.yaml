@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      PF7oNw8pmS25x
+      rpteQDMNGjPpu
   count: 2
 hook:
   enabled: false

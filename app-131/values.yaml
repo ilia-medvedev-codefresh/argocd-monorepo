@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      cXSCSIboxp4Vd
+      Ek5UeqzjxGMbt
   count: 2
 hook:
   enabled: false

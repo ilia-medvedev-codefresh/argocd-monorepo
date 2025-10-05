@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      eSetCGiv72USd
+      sus0HKGaUWRuO
   count: 2
 hook:
   enabled: false

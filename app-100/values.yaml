@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      Ex0MofCoHaSYs
+      91mJDWsalRKum
   count: 2
 hook:
   enabled: false

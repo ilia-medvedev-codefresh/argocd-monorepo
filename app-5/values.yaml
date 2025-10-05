@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      4GYvInAFfEUnA
+      Fbw4YUUOBjMDb
   count: 2
 hook:
   enabled: false

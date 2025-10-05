@@ -34,9 +34,8 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      08TRLBIQPqko7
+      Z4ByXWTS2Bksj
   count: 2
-
 hook:
   enabled: false
   sleepSecondsMax: 30

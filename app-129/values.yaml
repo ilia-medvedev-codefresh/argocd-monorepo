@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      OoRPXvX91GPHX
+      indpTascpX7gy
   count: 2
 hook:
   enabled: false

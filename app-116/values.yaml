@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      mdnpssp019429
+      FEIf48M4auudi
   count: 2
 hook:
   enabled: false

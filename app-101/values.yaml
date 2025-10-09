@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      iOsGIxDTfcOrd
+      wkFJP6ear9DBB
   count: 2
 hook:
   enabled: false

@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      tYmKPOXsVOPv6
+      gvilSZHauUuUr
   count: 2
 hook:
   enabled: false

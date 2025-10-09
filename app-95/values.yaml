@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      mLUGLWmxf0csZ
+      venvMP4vjNOdr
   count: 2
 hook:
   enabled: false

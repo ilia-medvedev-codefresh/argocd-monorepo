@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      SCERIRmfc1led
+      kKG4kf0YY2NO8
   count: 2
 hook:
   enabled: false

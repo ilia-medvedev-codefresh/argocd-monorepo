@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      pZ73INitPiCIp
+      EJ0mAPq3M9u4s
   count: 2
 hook:
   enabled: false

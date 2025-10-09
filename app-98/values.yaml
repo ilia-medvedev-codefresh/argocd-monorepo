@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      ixicodyxSanMp
+      7vol7M42OVHWx
   count: 2
 hook:
   enabled: false

@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
-  name: monorepo-apps
+  name: monorepo-apps-env1
 spec:
   preservedFields:
     annotations: ["codefresh.io/resync"]

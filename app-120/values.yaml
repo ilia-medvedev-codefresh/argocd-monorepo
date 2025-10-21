@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      OSUfmB15QCptp
+      uroLGLAVD1v15
   count: 2
 hook:
   enabled: false

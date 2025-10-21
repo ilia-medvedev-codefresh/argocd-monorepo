@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      04Trk89rDARTX
+      RriknMYF11npw
   count: 2
 hook:
   enabled: false

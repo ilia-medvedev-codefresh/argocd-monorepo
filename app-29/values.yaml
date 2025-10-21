@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      LuuHMjsBytsal
+      g3sKnPFXjzmll
   count: 2
 hook:
   enabled: false

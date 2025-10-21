@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      OQ7x8HP7uB52Q
+      n65amnBuSpGTO
   count: 2
 hook:
   enabled: false

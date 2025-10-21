@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      RYFVMCsoG32SE
+      I6JPLSEdSS0QP
   count: 2
 hook:
   enabled: false

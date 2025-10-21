@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      oxCE7793UnOSi
+      v0YCxKD3V16Q1
   count: 2
 hook:
   enabled: false

@@ -27,14 +27,21 @@ while true; do
 
     echo "Syncing all $NUM_APPS apps using ArgoCD API via curl..."
 
+    pids=()
     for APP in "${APPS[@]}"; do
         APP_NAME="${APP%/}"
         echo "Syncing $APP_NAME"
         curl -s -X POST "$ARGOCD_SERVER_URL/api/v1/applications/$APP_NAME/sync" \
             -H "Authorization: Bearer $ARGOCD_TOKEN" \
             -H "Content-Type: application/json" \
-            -d '{}'
+            -d '{}' &
+        pids+=("$!")
     done
 
-    echo "All sync requests sent."
+    # Wait for all backgrounded syncs to finish
+    for pid in "${pids[@]}"; do
+        wait "$pid"
+    done
+
+    echo "All sync requests sent (parallel)."
 done

@@ -1,0 +1,31 @@
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: monorepo-apps
+spec:
+  preservedFields:
+    annotations: ["codefresh.io/resync"]
+  generators:
+    - git:
+        repoURL: 'https://github.com/ilia-medvedev-codefresh/argocd-monorepo.git'
+        revision: env2
+        directories:
+          - path: 'app-*'
+  template:
+    metadata:
+      name: '{{path.basename}}'
+    spec:
+      project: default
+      source:
+        repoURL: 'https://github.com/ilia-medvedev-codefresh/argocd-monorepo.git'
+        targetRevision: env2
+        path: '{{path}}'
+      destination:
+        server: 'https://kubernetes.default.svc'
+        namespace: '{{path.basename}}'
+      syncPolicy:
+        syncOptions:
+        - CreateNamespace=true
+        automated:
+          prune: true
+          selfHeal: true

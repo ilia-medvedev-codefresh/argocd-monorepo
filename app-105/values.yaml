@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      fyoY180sS83PR
+      f70fellVGP952
   count: 2
 hook:
   enabled: false

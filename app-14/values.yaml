@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      zj4qRg5ushmib
+      oxCE7793UnOSi
   count: 2
 hook:
   enabled: false

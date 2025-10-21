@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      awsryYRusFarh
+      fSeX5a9kmFh28
   count: 2
 hook:
   enabled: false

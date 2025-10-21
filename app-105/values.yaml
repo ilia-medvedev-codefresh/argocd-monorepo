@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      f70fellVGP952
+      pyyyGwdLf5erp
   count: 2
 hook:
   enabled: false

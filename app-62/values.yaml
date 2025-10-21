@@ -34,7 +34,7 @@ deployments:
 configmaps:
   data:
     dummy.txt: |-
-      n76sFY5gl81Wj
+      wpGve9xLBMjdc
   count: 2
 hook:
   enabled: false
